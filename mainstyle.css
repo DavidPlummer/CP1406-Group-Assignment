@@ -1,14 +1,28 @@
 body {
     font-family: Economic;
     background-color: rgba(230, 235, 233, 0.41);
+    background-image: url("img/back2.jpg");
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 0;
+    float: right;
 
 }
 
-.caption {
-    display: inline-block;
-    text-align: left;
-    position: relative;
+h1 {
+     color: white;
+     margin-top: 5%;
+     margin-left: 10%;
+ }
+
+h2 {
+    color: #fec000;
+    margin-top: 5%;
+    margin-left: 10%;
 }
+
+
 @media (max-width: 767px) {
     .content {
         padding: 15px;
@@ -63,9 +77,10 @@ body {
     color: #fec000;
     text-shadow: 1.4px 2px 2.9px #000000;
     text-align: center;
-    padding-top: 0;
-    padding-bottom: 3%;
+    padding-top: 10%;
+    padding-bottom: 15%;
     font-family: Economica;
+
 }
 
 #donate a {
@@ -99,6 +114,8 @@ h2 {
     padding-top: 20px;
     font-family: Lucida sans, Georgia, serif;
     text-align: center;
+    margin-bottom: 15%;
+    margin-top:20%;
 }
 
 #menucontact p {
@@ -112,3 +129,19 @@ h2 {
     }
 }
 
+.img-artist{
+    float: left;
+    padding: 2%;
+}
+.thumbnail {
+    float: left;
+    text-align: left;
+    display: inline;
+    background-color: #0f0f0f;
+    color: #bbbbbb;
+    padding-top: 5%;
+}
+
+.btn-lg {
+    background-color: #3dfef6;
+}
