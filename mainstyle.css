@@ -1,3 +1,14 @@
+body {
+    font-family: Economic;
+    background-color: rgba(230, 235, 233, 0.41);
+
+}
+
+.caption {
+    display: inline-block;
+    text-align: left;
+    position: relative;
+}
 @media (max-width: 767px) {
     .content {
         padding: 15px;
@@ -9,7 +20,7 @@
 
     #menu-bar .panel {
         margin-bottom: 0;
-        background-color: rgba(0, 0, 0, 0);
+        background-color: rgba(12, 228, 255, 0);
         border: none;
         border-radius: 0;
         -webkit-box-shadow: none;
@@ -17,11 +28,12 @@
     }
 
     #menu-bar li a {
-        color: #fec000;
-        font-size: 16px;
-        font-weight: bold;
+        color: #c7c7c7;
+        font-size: 18px;
         text-align: center;
         padding: 4%;
+        text-decoration: none;
+
     }
 
     #navbar {
@@ -31,8 +43,9 @@
     }
 
     .content {
-        margin-left: 300px; 
+        margin-left: 100px;
         min-height: 100%;
+        margin-right: 10px;
     }
 
     .container {
@@ -42,7 +55,7 @@
 
 @media (min-width: 768px) {
     .clearfix-1 {
-        margin-top: 70%;
+        margin-top: 60%;
     }
 }
 
@@ -50,8 +63,9 @@
     color: #fec000;
     text-shadow: 1.4px 2px 2.9px #000000;
     text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-top: 0;
+    padding-bottom: 3%;
+    font-family: Economica;
 }
 
 #donate a {
@@ -62,6 +76,7 @@
 
 h2 {
     color: #fec000;
+    font-family: Constantia;
 }
 
 @media (max-width: 786px) {
@@ -70,4 +85,30 @@ h2 {
     }
 }
 
+@media (max-width: 786px) {
+    #links {
+        display: none;
+    }
+}
+#links a{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#menucontact {
+    padding-top: 20px;
+    font-family: Lucida sans, Georgia, serif;
+    text-align: center;
+}
+
+#menucontact p {
+    color: #cecece;
+    font-size: 10px;
+}
+
+@media (max-width: 786px){
+    #menucontact{
+        display: none;
+    }
+}
 
