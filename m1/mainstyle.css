@@ -1,0 +1,477 @@
+body {
+	  font-family: Goudy Old Style, Constantia, Lucida Bright, DejaVu Serif, Georgia, serif;
+    font-size: 200%;
+    background-color: rgba(0, 0, 0, 0.69);
+    background-image: url("img/back4.jpg");
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 0;
+    float: right;
+}
+
+p{
+    color: #5c5c5c;
+}
+
+h1 {
+     font-family: Gotham, Lucida sans, Georgia, serif;
+     color: white;
+     margin-top: 5%;
+     margin-left: 10%;
+ }
+
+h2 {
+    font-family: Gotham, Lucida sans, Georgia, serif;
+    color: #fec000;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+@media (max-width: 767px) {
+    .content {
+        padding: 15px;
+        margin-top: 100px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    #menu-bar .panel {
+        margin-bottom: 0;
+        background-color: rgba(24, 210, 38, 0);
+        border: none;
+        border-radius: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
+    #menu-bar li a {
+        color: #c7c7c7;
+        font-size: 18px;
+        text-align: center;
+        padding: 2%;
+        text-decoration: none;
+        margin-top: 5%;
+    }
+
+    #navbar {
+        float: left;
+        width: 300px;
+        height: 100%;
+    }
+
+
+    .content {
+        margin-left: 100px;
+        min-height: 100%;
+        margin-right: 10px;
+    }
+
+    .container {
+        margin-left: 25px;
+    }
+}
+
+.btn {
+    margin-right: 15%;
+		border-radius: 0px;
+}
+
+.wpcf7-list-item-label {
+	margin-left: 10px;
+}
+
+.btn a{
+  font-family: Gotham, Lucida sans, Georgia, serif;
+}
+
+.margfix {
+	margin-right:0px;
+}
+
+.btn a:hover{
+	text-decoration: none;
+	color: white;
+}
+
+@media (min-width: 768px) {
+    .clearfix-1 {
+        margin-top: 60%;
+    }
+}
+
+.donate {
+    font-family: Gotham, Lucida sans, Georgia, serif;
+    color: #fec000;
+    text-shadow: 1.4px 2px 2.9px #000000;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+#menu-bar{
+	margin-top: 30px;
+}
+
+#menu-bar li a{
+  padding-top: 17px;
+  padding-bottom: 17px;
+  margin-top: -6px;
+  margin-bottom: -6px;
+  font-size: 25px;
+	color: #fec000;
+}
+
+#menu-bar a{
+	color: #fec000;
+  text-shadow: 2px 8px 10px black;
+}
+
+#menu-bar li{
+  width: 100%;
+  margin-left: -8%;
+  text-align: center;
+}
+
+#menu-bar li ul li{
+  text-align: center;
+  list-style-type: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: -10%;
+}
+
+#menu-bar li ul li a{
+  font-size: 15px;
+  font-family: Gotham, Lucida sans, Georgia, serif;
+	color: white;
+}
+
+#menu-bar li ul{
+  margin-top: 10px;
+}
+
+#donate a {
+    color: #fec000;
+    text-shadow: 1.4px 2px 2.9px #000000;
+    text-decoration-line: none;
+}
+
+h2 {
+    color: #fec000;
+}
+.ourPeople{
+    color: #030200;
+		text-align: center;
+		margin-top: 10%;
+    font-size: 200%;
+}
+@media (max-width: 765px){
+    .ourPeople{
+        margin-left: 10%;
+        margin-top: 15%;
+    }
+}
+.peopleheadding{
+    color: #777777;
+    text-decoration: solid;
+
+}
+.peopleParra{
+    color: #777777;
+		margin-top: 30px;
+    font-size: 70%;
+    text-align: center;
+}
+
+@media (max-width: 786px) {
+    .donate {
+        display: none;
+    }
+}
+
+@media (max-width: 786px) {
+    #links {
+        display: none;
+    }
+}
+#links a{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 1%;
+}
+
+.links1{
+    margin-top: 10%;
+}
+
+#links {
+	margin-left: 20%;
+}
+
+#call{
+  padding: 0px;
+  margin-left: -10%;
+  text-align: center;
+}
+
+#call li{
+  list-style-type: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#call a{
+	font-family: Goudy Old Style, Constantia, Lucida Bright, DejaVu Serif, Georgia, serif;
+  color: #fec000;
+  text-shadow: 2px 8px 10px black;
+}
+
+#menucontact {
+    padding-top: 1%;
+  	font-family: Gotham, Lucida sans, Georgia, serif;
+    text-align: center;
+    margin-bottom: 15%;
+    margin-top:10%;
+}
+
+#menucontact p {
+    color: #cecece;
+    font-size: 10px;
+}
+
+@media (max-width: 786px){
+    #menucontact{
+        display: none;
+    }
+}
+
+.img-artist{
+    float: left;
+    padding: 2%;
+}
+.thumbnail {
+    float: left;
+    text-align: center;
+    display: inline;
+    background-color: #0f0f0f;
+    color: #bbbbbb;
+    padding: 1%;
+    margin-left: 10%;
+    margin-bottom: 1%;
+
+}
+.thumbnailOne {
+    float: left;
+    text-align: left;
+    display: inline;
+    background-color: #0f0f0f;
+    color: #bbbbbb;
+    padding: 1%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.btn-lg {
+    background-color: #3dfef6;
+    margin-left: 50%;
+}
+
+#welcome {
+    margin-top: 30px;
+}
+
+#welcome p {
+  font-family: Gotham, Lucida sans, Georgia, serif;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+#page {
+    padding: 20px;
+    margin: 0px;
+}
+
+#page h1 {
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000000;
+    padding: 20px;
+    font-family: Gotham, Lucida sans, Georgia, serif;
+}
+
+#page h3 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    font-family: Gotham, Lucida sans, Georgia, serif;
+    text-shadow: 1.8px 4px 5.8px #000000;
+    padding: 20px;
+}
+
+.people {
+    background: #e5e5e5;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.well{
+    background-color: transparent;
+
+}
+.panel-title{
+  color: #292929;
+}
+.panel-default{
+    border-color: #aaa;
+
+}
+.dropdown{
+    background-color: transparent;
+
+}
+
+.btn1 {
+    margin-right: 15%;
+    color: white;
+    background-color: black;
+}
+
+.btn-lg1{
+    background-color:black;
+    margin-left: 10%;
+}
+@media (max-width: 767px ){
+    .btn-lg1{
+        margin-left: 1%;
+    }
+}
+
+.btn2 {
+    margin-right: 10%;
+    margin-bottom: 5%;
+    margin-top:2%;
+    background-color: transparent;
+}
+
+.btn2:hover {
+	background-color: #292929;
+	color: white;
+}
+
+.btn2 a{
+	color: black;
+}
+
+@media (max-width: 960px ){
+    .btn-lg1{
+        margin-left: 10%;
+    }
+}
+
+.about{
+    color: #030200;
+    margin-left: 30%;
+    margin-top: 10%;
+    margin-bottom: 40px;
+    font-size: 350%;
+}
+@media (max-width: 700px){
+    .about{
+        margin-top:20%;
+    }
+}
+.pagebtn{
+    color: white;
+		text-shadow: 1.8px 4px 5.8px #000000;
+}
+
+.size {
+	font-size: 40px;
+}
+
+#accordion a{
+	font-size: 25px;
+}
+
+.btnhome{
+    color:black;
+    background-color: rgba(0, 0, 0, 0);
+    margin-left:33.3%;
+    margin-top:5%;
+    padding-left: 4%;
+    padding-right: 4%;
+    font-size: 220%;
+}
+
+.support{
+    text-align: center;
+    margin-left:1%;
+    margin-bottom: 4%;
+    margin-left: 10%;
+}
+
+.text{
+
+    border-left: solid 1px;
+    border-color: rgba(128, 128, 128, 0.51);
+}
+.test2{
+    border: solid 1px;
+    border-color: black;
+}
+
+.hoveranim * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+.hoveranim li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 5px 1.5em;
+  padding: 0px;
+}
+
+.hoveranim a {
+  padding: 0px;
+  color: rgba(255, 255, 255, 0.5);
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.hoveranim a:before {
+  position: absolute;
+  content: '';
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  opacity: 0;
+  top: 30%;
+  bottom: 30%;
+  left: 0;
+  right: 0;
+  border-top: 2px solid #fec000;
+  border-bottom: 2px solid #fec000;
+  border-radius: 1px;
+}
+
+.hoveranim a:hover,
+.hoveranim .current a {
+  color: #ffffff;
+}
+
+
+.hoveranim a:hover:before,
+.hoveranim .current a:before {
+  opacity: 1;
+  top: 0;
+  bottom: 0;
+}
